@@ -1,4 +1,4 @@
-This code is to read PDF files and convert them into excel files t be uploaded into business central. To use this code, follow the following steps:
+This code is to read PDF files and convert them into excel files to be uploaded into business central. To use this code, follow the following steps:
 
 1. Download python. This is the language the code is written in. https://www.python.org/downloads/
 2. Download pycharm or some other interperter. This is how you will interact with the code. https://www.jetbrains.com/pycharm/download/#section=windows
