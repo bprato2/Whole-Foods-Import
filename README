@@ -1,0 +1,9 @@
+This code is to read PDF files and convert them into excel files t be uploaded into business central. To use this code, follow the following steps:
+
+1. Download python. This is the language the code is written in. https://www.python.org/downloads/
+2. Download pycharm or some other interperter. This is how you will interact with the code. https://www.jetbrains.com/pycharm/download/#section=windows
+3. Once downloaded, copy this repository. 
+4. Change the folder path in the 5th line of the main file to wherever your PDFs will be stores. Note that if there are any "\" you should replace them with "/". 
+5. Place any files you want to be read into that folder
+6. Click the green run buttom in the top right of PyCharm. 
+7. Your file should be saved as 'orders'. 
