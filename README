@@ -4,7 +4,8 @@ This code is to read PDF files and convert them into excel files to be uploaded 
 2. Download pycharm or some other interperter. This is how you will interact with the code. https://www.jetbrains.com/pycharm/download/#section=windows
 3. Once those are downloaded, download this repository. You do this by clicking on the green '<>Code' and selecting download ZIP. 
 4. Extract the ZIP file and save it in whatever location on your computer you would like to. You can now open up "main" in PyCharm
-5. Change the folder path in the 5th line of the main file to wherever your PDFs will be stores. Note that if there are any "\" you should replace them with "/". 
-6. Place any files you want to be read into that folder
-7. Click the green run buttom in the top right of PyCharm. 
-8. Your file should be saved as 'orders'. 
+5. Click on interperter in the bottom right to select the python that you have doenloaded. 
+6. Change the folder path in the 5th line of the main file to wherever your PDFs will be stores. Note that if there are any "\" you should replace them with "/". 
+7. Place any files you want to be read into that folder
+8. Click the green run buttom in the top right of PyCharm. 
+9. Your file should be saved as 'orders'. 
