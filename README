@@ -5,8 +5,8 @@ This code is to read PDF files and convert them into excel files to be uploaded 
 3. Once those are downloaded, download this repository. You do this by clicking on the green '<>Code' and selecting download ZIP. 
 4. Extract the ZIP file and save it in whatever location on your computer you would like to. You can now open up "main" in PyCharm
 5. Click on interperter in the bottom right to select the python that you have doenloaded. 
-6. Go to File -> settings -> Project:main.py -> Python Interperter -> '+' -> search for 'pandas' -> install package, then search for 'bs4' -> install package, 
-then search for 'openpyxl' -> install package
+6. Go to File -> settings -> Project:main.py -> Python Interperter -> '+' in the upper left hand part of the window. -> search for 'pandas' -> 
+   install package, then search for 'bs4' -> install package, then search for 'openpyxl' -> install package
 7. Change the folder path in the 5th line of the main file to wherever your PDFs will be stores. Note that if there are any "\" you should replace them with "/". 
 8. Place any files you want to be read into that folder
 9. Click the green run buttom in the top right of PyCharm. 
