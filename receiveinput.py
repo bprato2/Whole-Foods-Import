@@ -183,6 +183,11 @@ def add_lists_together(data_list, wholefoodsinfo):
         sales_header['Sell-to Customer No.'] += [customer_number]
         sales_header['Bill-to Customer No.'] += ['WHOLE FOODS CORPORAT']
         sales_header['Ship-to Code'] += [df.loc[df['No.'] == customer_number, "Ship-to Code"].values[0]]
+        sales_header['Ship-to Name'] += [
+            df.loc[df['No.'] == customer_number, "Sell-to Customer Name"].values[0]]
+        sales_header['Ship-to Address'] += [df.loc[df['No.'] == customer_number, 'Sell-to Address'].values[0]]
+        sales_header['Ship-to Address'] += [df.loc[df['No.'] == customer_number, 'Sell-to Address 2'].values[0]]
+        sales_header['Ship-to City'] += [df.loc[df['No.'] == customer_number, 'Sell-to City'].values[0]]
         sales_header['Order Date'] += [data['Order Date']]
         sales_header['Due Date'] += ['']
         sales_header['Location Code'] += ['ELIZABETH']
